@@ -4,7 +4,7 @@ public class DefaultCountingOutRhymer {
 
 	IntArrayStack intArrayStack = new IntArrayStack();
 
-	public DefaultCountingOutRhymer(IntArrayStack intArrayStack) {
+	public DefaultCountingOutRhymer(IntArrayStack intArrayStack) { 
 		super();
 		this.intArrayStack = intArrayStack;
 	}

@@ -9,7 +9,11 @@ public class IntArrayStack {
 
 	private int[] NUMBERS = new int[STACK_CAPACITY];
 
-	public int total = EMPTY_STACK_ERROR;
+	private int total = EMPTY_STACK_ERROR;
+
+	public int getTotal() {
+		return total;
+	}
 
 	public void countIn(int in) {
 		if (!isFull())
