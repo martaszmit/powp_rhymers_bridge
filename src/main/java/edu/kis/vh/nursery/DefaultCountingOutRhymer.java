@@ -1,15 +1,15 @@
 package edu.kis.vh.nursery;
 
-public class defaultCountingOutRhymer {
+public class DefaultCountingOutRhymer {
 
 	IntArrayStack intArrayStack = new IntArrayStack();
 
-	public defaultCountingOutRhymer(IntArrayStack intArrayStack) {
+	public DefaultCountingOutRhymer(IntArrayStack intArrayStack) {
 		super();
 		this.intArrayStack = intArrayStack;
 	}
 
-	public defaultCountingOutRhymer() {
+	public DefaultCountingOutRhymer() {
 		super();
 	}
 
@@ -33,8 +33,5 @@ public class defaultCountingOutRhymer {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
-	
-	
 
 }
