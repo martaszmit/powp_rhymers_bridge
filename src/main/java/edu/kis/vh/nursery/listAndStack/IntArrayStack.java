@@ -1,5 +1,14 @@
 package edu.kis.vh.nursery.listAndStack;
 // kombinacja alt + <- lub alt + -> powoduje przełączanie się między zakładakmi (otwartymi klasami)
+
+
+
+/**
+ * @author Marta
+ *3.1.9
+ *Tak, pomogla,
+ *ILinkedList? 
+ */
 public class IntArrayStack {
 	private static final int FULL = 11;
 
