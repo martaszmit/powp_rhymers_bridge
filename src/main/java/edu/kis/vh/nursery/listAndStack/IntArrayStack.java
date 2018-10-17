@@ -3,7 +3,7 @@ package edu.kis.vh.nursery.listAndStack;
 public class IntArrayStack {
 	private static final int FULL = 11;
 
-	private static final int EMPTY_STACK_ERROR = -1;
+	private static final int EMPTY_STACK_ERROR = 0;
 
 	private static final int STACK_CAPACITY = 12;
 
