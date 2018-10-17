@@ -1,5 +1,7 @@
 package edu.kis.vh.nursery;
 
+import edu.kis.vh.nursery.listAndStack.IntArrayStack;
+
 /**
  * @author Marta
  * impementacja interfejsu zamiast rozsszerzania klasy ma tę przewagę, że klasa może implementować wiele intefejsów, a rozszerzać tylko jedną klasę. 
