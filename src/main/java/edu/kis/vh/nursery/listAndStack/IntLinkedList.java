@@ -2,6 +2,7 @@ package edu.kis.vh.nursery.listAndStack;
 
 public class IntLinkedList implements IIntLinkedList {
 
+	private static final int EMPTY_STACK_ERROR = -1;
 	Node last;
 	int i;
 
@@ -41,7 +42,7 @@ public class IntLinkedList implements IIntLinkedList {
 	@Override
 	public int top() {
 		if (isEmpty())
-			return -1;
+			return EMPTY_STACK_ERROR;
 		return last.value;
 	}
 
@@ -51,7 +52,7 @@ public class IntLinkedList implements IIntLinkedList {
 	@Override
 	public int pop() {
 		if (isEmpty())
-			return -1;
+			return EMPTY_STACK_ERROR;
 		int ret = last.value;
 		last = last.prev;
 		return ret;
