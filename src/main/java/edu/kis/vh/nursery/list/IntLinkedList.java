@@ -1,6 +1,6 @@
 package edu.kis.vh.nursery.list;
 
-public class IntLinkedList {
+public class IntLinkedList implements StackImplementation{ 
 
 	private Node last;
 	private int listSize;
@@ -35,6 +35,24 @@ public class IntLinkedList {
 	}
 	public int getsize() {
 		return listSize;
+	}
+
+	@Override
+	public int top() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getSize() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int peekaboo() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }
