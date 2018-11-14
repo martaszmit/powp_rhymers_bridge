@@ -6,8 +6,8 @@ public class defaultCountingOutRhymer {
 	
 	private final StackImplementation stackImplementation;
 
-	public defaultCountingOutRhymer(StackImplementation intLinkedList) {
-		this.stackImplementation = intLinkedList;
+	public defaultCountingOutRhymer(StackImplementation stackImplementation) {
+		this.stackImplementation = stackImplementation;
 	}
 	
 	public defaultCountingOutRhymer() {
