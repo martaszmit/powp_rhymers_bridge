@@ -1,7 +1,6 @@
 package edu.kis.vh.nursery.collection;
 
 public class IntArrayStack implements StackImplementation {
-	private static final int STACK_CAPACITY = 12;
 	
 	private static final int IS_FULL_RHYMER = 11;
 	
@@ -14,7 +13,7 @@ public class IntArrayStack implements StackImplementation {
 
 	
  	public boolean isFull() {
-		return total == IS_FULL_RHYMER;
+		return total == STACK_CAPACITY -1;
 	}
 
 	@Override

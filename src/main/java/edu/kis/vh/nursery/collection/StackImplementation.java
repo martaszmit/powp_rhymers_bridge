@@ -1,7 +1,8 @@
 package edu.kis.vh.nursery.collection;
 
 public interface StackImplementation {
-	int EMPTY_STACK = -1;
+	int EMPTY_STACK = 0;
+	int STACK_CAPACITY = 12;
 	boolean isFull();
  
 	void push(int i);
