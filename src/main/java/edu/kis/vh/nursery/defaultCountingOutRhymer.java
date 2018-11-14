@@ -1,6 +1,6 @@
 package edu.kis.vh.nursery;
-import edu.kis.vh.nursery.list.IntLinkedList;
-import edu.kis.vh.nursery.list.StackImplementation;
+import edu.kis.vh.nursery.collection.IntLinkedList;
+import edu.kis.vh.nursery.collection.StackImplementation;
 
 public class defaultCountingOutRhymer {
 	
@@ -23,9 +23,7 @@ public class defaultCountingOutRhymer {
 	boolean isFull() {
 		return stackImplementation.isFull();
 	}
-	int peekaboo() {
-		return stackImplementation.peekaboo();
-	}
+
 	int countOut() {
 		return stackImplementation.pop();
 	}

@@ -1,6 +1,7 @@
-package edu.kis.vh.nursery.list;
+package edu.kis.vh.nursery.collection;
 
 public interface StackImplementation {
+	int EMPTY_STACK = -1;
 	boolean isFull();
  
 	void push(int i);
@@ -13,6 +14,5 @@ public interface StackImplementation {
 	
  	int getSize();
 
-	int peekaboo();
 
 }
